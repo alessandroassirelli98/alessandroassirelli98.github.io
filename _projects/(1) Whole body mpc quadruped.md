@@ -2,7 +2,7 @@
 name: Whoe body MPC for quadruped robot
 tools: [team, internship project, optimal control, python]
 image: /assets/imgs/whole_body_mpc/miniature/miniature.png
-description: This project has no image or showcase page, but it is still a beautiful project inside out!
+description: The subject of my six months internship in Toulouse and it consisted in the development of an AI algorithm to perform locomotion
 ---
 ![project_idea](/assets/imgs/whole_body_mpc/walk.png)
 ![project_idea](/assets/imgs/whole_body_mpc/1.png)
@@ -11,7 +11,7 @@ description: This project has no image or showcase page, but it is still a beaut
 The objective of this project was to design and implement a novel Whole-Body Model Predictive Controller for the locomotion of an impedence controlled quadruped robot (Solo12). By deploying our algorithm on the real robot we sought to achieve dynamic and versatile robot movements, without relying on predefined foot references.
 
 # Description:
-To accomplish our goal, we followed a systematic approach that included the following key steps:
+To accomplish our goal, we implemented the went through the following steps:
 
 - Whole-Body MPC: We implemented a Whole-Body Model Predictive Controller that could handle complex robot dynamics including contacts. By formulating the control problem as an optimization task, the control algorithm could plan and execute motions while considering the whole system dynamics, kinematics, and actuator limits.
 
@@ -30,11 +30,7 @@ Through our collaborative efforts, we achieved remarkable milestones and outcome
 - Demonstrated abilities of push recovery
 - Validation through comprehensive simulations and experimental tests, confirming the effectiveness, robustness, and practical applicability of our Whole-Body MPC approach.
 
-<p class="text-center">
+<div class="flex-parent jc-center">
 {% include elements/button.html link="/technical_details/WB_MPC.pdf" text="Technical report" %}
-</p>
-
-
-<p class="text-center">
 {% include elements/button.html link="https://www.linkedin.com/feed/update/urn:li:activity:6980541111610007552/" text="Video" %}
-</p>
+</div>

@@ -1,10 +1,12 @@
 ---
 name: Dqn Implementation
 tools: [alone, coursework, RL, python]
-image: /assets/imgs/dqn-implementation/miniature.png
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+image: /assets/imgs/dqn-implementation/miniature/miniature.png
+description: Implementation of a DQN algorithm in python to control a double pendulum robot
 ---
 
+<center><iframe width="800" height="300" src="/assets/imgs/dqn-implementation/Double pendulum.mp4" frameborder="0" allowfullscreen></iframe></center>
+![project_idea](/assets/imgs/dqn-implementation/1.png)
 # Overview
 
 The objective of this project was to train an agent using the Deep Q-Network (DQN) algorithm to learn how to control a swing up manuever of a double pendulum. The double pendulum consists of two connected rods, where the motion of the second rod is influenced by the position and velocity of the first rod. The agent's task was to learn how to manipulate the torque applied to the first joint of the pendulum to stabilize it in an upright position.
@@ -23,19 +25,14 @@ To accomplish this task, I employed the following steps:
 
 - Evaluation and Fine-Tuning: After training the agent, I evaluated its performance by running simulations of the double pendulum. I fine-tuned the DQN algorithm by adjusting hyperparameters, network architecture, and exploration-exploitation strategies to improve the agent's control and stabilization capabilities.
 
-# Results and Achievements:
-Through this project, I achieved significant milestones and noteworthy outcomes:
+# Results:
+Through this project I achieved the following goals,:
 
 - Successfully developed and trained a DQN algorithm to control and stabilize a double pendulum in python.
 - The trained agent demonstrated the ability to effectively stabilize the double pendulum in an upright position.
 - Achieved a basic understanding of the underlying principles and techniques used in reinforcement learning and applied them in a practical scenario.
 
-
-# Keywords
-`Coursework`, `Python`, `Reinforcement Learning`
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+<div class="flex-parent jc-center">
+  {% include elements/button.html link="/technical_details/Alessandro_Assirelli_Assignment03.pdf" text="Technical report" %}
+  {% include elements/button.html link="https://github.com/alessandroassirelli98/orc/tree/main/03_assignment" text="Project repo" %}
+</div>
