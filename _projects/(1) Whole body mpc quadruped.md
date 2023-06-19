@@ -2,8 +2,11 @@
 name: Whoe body MPC for quadruped robot
 tools: [team, internship project, optimal control, python]
 image: /assets/imgs/whole_body_mpc/miniature/miniature.png
-description: The subject of my six months internship in Toulouse and it consisted in the development of an AI algorithm to perform locomotion
+description: The subject of my six months internship in Toulouse. It consisted in the development of an AI algorithm to perform locomotion
 ---
+
+<center><iframe width="900" height="400" src="/assets/imgs/whole_body_mpc/video_solo12.mp4" frameborder="0" allowfullscreen></iframe></center>
+
 ![project_idea](/assets/imgs/whole_body_mpc/walk.png)
 ![project_idea](/assets/imgs/whole_body_mpc/1.png)
 
