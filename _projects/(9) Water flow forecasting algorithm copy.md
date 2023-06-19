@@ -17,10 +17,10 @@ This project consisted on developing a forecasting algorithm for a company opera
 
 - Feature Selection and Preprocessing: To train the forecasting algorithms effectively, relevant features were selected and preprocessed. Factors such as historical water flow rates, weather data, seasonal patterns, and any other variables deemed significant were considered. Feature engineering techniques were applied to capture the temporal and spatial characteristics of the data, ensuring that the algorithms could extract meaningful patterns for accurate predictions. 
 
-- Algorithm Evaluation and Comparison: After training and fine-tuning the selected algorithms, an extensive evaluation was conducted to compare their performance. Various metrics, including mean absolute error (MAE), root mean squared error (RMSE), and R-squared (R²) were used to assess the algorithms' forecasting accuracy.
+- Algorithm Evaluation and Comparison: After training and fine-tuning the selected algorithms, an extensive evaluation was conducted to compare their performance. Various metrics were used to assess the algorithms' forecasting accuracy.
 
 # Results
-Through the project, the following results and findings were obtained:
+Through the project, the following findings and results were obtained:
 
 - Explored and evaluated various algorithms, including XGBoost, Temporal Convolutional Network (TCN), LSTM
 
@@ -30,15 +30,12 @@ Through the project, the following results and findings were obtained:
 
 - LSTM models exhibited strong capabilities in capturing temporal dynamics and performed well in predicting water volume.
 
+- Developed forecasting models that accurately predicts incoming water volume, contributing to an effcient management of the water treatment process.
+
 - Comparative analysis enabled identification of the most suitable algorithm for the company's needs.
-
-- Developed forecasting models that accurately predict incoming water volume, contributing to proactive management of the water treatment process.
-
-- Optimization of air pump cycles based on the forecasting results led to improved water treatment efficiency and reduced operational costs.
 
 - The project provided the company with valuable insights and tools and offered a collaboration to further develop the project.
 
-- The outcomes enhance overall performance, ensure optimal bacteria activation, and contribute to sustainable water treatment plant operations.
 
 <div class="flex-parent jc-center">
 {% include elements/button.html link="/technical_details/Industrial-AI-Challenge-2021-Final-report-NIRIS.pdf" text="Technical report" %}

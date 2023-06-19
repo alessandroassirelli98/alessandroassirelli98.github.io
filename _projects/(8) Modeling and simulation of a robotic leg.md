@@ -14,11 +14,11 @@ This project consists on modeling a leg for a quadruped robot. The project encom
 # Description
 - Leg Actuation Mechanism Selection: the project began with an evaluation of different actuation mechanisms suitable for the leg of a quadruped robot. Factors such as compactness, power-to-weight ratio, controllability, and suitability for dynamic movements were taken into consideration. After a thorough analysis, a specific actuation mechanism was chosen to meet the project's requirements.
 
-- Kinematics Analysis: the next phase involved conducting a detailed kinematics analysis of the leg. The goal was to accurately describe describe the motion of the leg given the actuators input. At this stage we also performed inverse kinematics to find the joint angles that make the foot follow a predefined trajectory. Also a sensitivity analysis has been developed to model how the system would behave in case of errors in the production.
+- Kinematics Analysis: the next phase involved conducting a detailed kinematics analysis of the leg. The goal was to accurately describe the motion of the leg given the actuators input. The model also included the kinematics of the planetary gearbox. At this stage we also performed inverse kinematics to find the joint angles that make the foot follow a predefined trajectory. Also a sensitivity analysis has been developed to model how the system would behave in case of errors in the production.
 
 - Dynamics Analysis: after establishing the kinematic model, a dynamics analysis was performed to study the leg's behavior under different conditions. This involved calculating the forces, torques, and accelerations experienced by the leg during various movements. In particular we performed drop and jump simulations, which are two very common situations for a quadruped robot.
 
-- Parameters Optimization: to enhance the leg's performances, parameters optimization was carried out. We decided a target task, in our case jumping and optimized the system in order to reach maximum height. The optimization also included constraints such as maximum torques and links dimensions range and found the optimal link lenghts. 
+- Parameters Optimization: to enhance the leg's performances, parameters optimization was carried out. We decided a target task, in our case jumping, and optimized the system in order to reach maximum height. The optimization also included constraints such as maximum torques and links dimensions range and found the optimal link lenghts. 
 
 # Results
 The project has been developed in Maple and MapleSim environments and has been a nice application of technical skills.
@@ -29,7 +29,7 @@ The project has been developed in Maple and MapleSim environments and has been a
 
 - Carried out dynamics analysis to understand the leg's behavior under various loading conditions.
 
-- Optimized design parameters, including link lengths, joint stiffness, and actuator characteristics to enhance the leg's efficiency, performance, and energy consumption.
+- Optimized design parameters, including link lengths, joint stiffness, and actuator characteristics to enhance the leg's performance
 
 - The project's findings can be utilized as starting point in the further development of advanced quadruped robots.
 

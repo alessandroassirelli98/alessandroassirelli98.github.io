@@ -13,13 +13,12 @@ During a course I had the opportunity to held a teaching lesson for a group of s
 The teaching lesson was designed with the following key objectives in mind:
 
 - Introduce students to the fundamentals of Model Predictive Control and its advantages in control systems.
-- Illustrate the application of MPC in the control of a unicycle which is a nonlinear system.
+- Illustrate the application of MPC in the control of a unicycle, which is a nonlinear system.
 - Explain the mathematical modeling of the unicycle dynamics and its representation in state-space form.
 - Demonstrate the formulation of the MPC problem, including the prediction horizon, constraints, and cost function.
 - Provide hands-on experience by implementing and simulating the MPC controller for the unicycle using appropriate software tools.
 - Assess the performance and stability of the MPC controller under different scenarios and disturbances.
 
-Lesson Preparation
 The teaching lesson was carefully prepared to ensure effective knowledge transfer and engagement. The key steps involved in lesson preparation were as follows:
 
 - Research and Content Development: Thorough research was conducted to gather the necessary theoretical concepts and practical examples related to MPC and unicycle control. The lesson content was developed, focusing on clarity, coherence, and the gradual introduction of complex topics. I also took a lot of inspiration from what I learnt during my internship (the one about quadruped locomotion)
@@ -34,13 +33,7 @@ The teaching lesson was carefully prepared to ensure effective knowledge transfe
 
 
 # Results
-Through our collaborative efforts, we achieved remarkable milestones and outcomes:
-
-- Successful development and implementation of a Whole-Body MPC framework for impedance-controlled robot locomotion.
-- Innovative foot reference-free approach.
-- Demonstrated locomotion capabilities even in presence of external disturbances.
-- Demonstrated abilities of push recovery
-- Validation through comprehensive simulations and experimental tests, confirming the effectiveness, robustness, and practical applicability of our Whole-Body MPC approach.
+I have received very positive feedbacks from students that also asked for further material and clarifications. The lecture concluded with the completion of the tutorials
 
 You can have a brief look at the code here, but they require additional code that can be found on the repo
 

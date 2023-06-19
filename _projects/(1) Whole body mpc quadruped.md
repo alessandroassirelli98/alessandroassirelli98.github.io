@@ -11,7 +11,7 @@ description: The subject of my six months internship in Toulouse and it consiste
 The objective of this project was to design and implement a novel Whole-Body Model Predictive Controller for the locomotion of an impedence controlled quadruped robot (Solo12). By deploying our algorithm on the real robot we sought to achieve dynamic and versatile robot movements, without relying on predefined foot references.
 
 # Description:
-To accomplish our goal, we implemented the went through the following steps:
+To accomplish our goal, we implemented the following steps:
 
 - Whole-Body MPC: We implemented a Whole-Body Model Predictive Controller that could handle complex robot dynamics including contacts. By formulating the control problem as an optimization task, the control algorithm could plan and execute motions while considering the whole system dynamics, kinematics, and actuator limits.
 
@@ -22,9 +22,9 @@ To accomplish our goal, we implemented the went through the following steps:
 - Simulation and Experimental Validation: We conducted extensive simulations and real-world experiments to validate the performance of our Whole-Body MPC approach. Simulations allowed us to assess the control framework's behavior in various scenarios, while physical experiments provided practical insights and fine-tuning opportunities.
 
 # Results
-Through our collaborative efforts, we achieved remarkable milestones and outcomes:
+Through our collaborative efforts, we achieved remarkable outcomes:
 
-- Successful development and implementation of a Whole-Body MPC framework for impedance-controlled robot locomotion.
+- Successful development and implementation of a Whole-Body MPC for impedance-controlled robot locomotion.
 - Innovative foot reference-free approach.
 - Demonstrated locomotion capabilities even in presence of external disturbances.
 - Demonstrated abilities of push recovery

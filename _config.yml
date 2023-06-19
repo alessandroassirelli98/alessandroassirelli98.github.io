@@ -3,10 +3,10 @@ title               : Alessandro Assirelli Portfolio
 description         : >-
                       "Happyness comes from solving problems",
                       Mark Manson, The subtle art of not giving a fck.
-                      - I am happy - 
+
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 remote_theme        : YoussefRaafatNasry/portfolYOU
-open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+open_new_tab        : true                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
 ### Plugins ###

@@ -15,13 +15,13 @@ The objective of this project was to train an agent using the Deep Q-Network (DQ
 
 To accomplish this task, I employed the following steps:
 
-- Environment Setup: I set up a simple simulation environment that modeled the physics of the double pendulum. This environment provided the agent with the current state information, such as the angles and angular velocities of the pendulum rods.
+- Environment Setup: set up a simple simulation environment that modeled the physics of the double pendulum. This environment provided the agent with the current state information, such as the angles and angular velocities of the pendulum rods.
 
-- Deep Q-Network Architecture: I designed a neural network, known as the Q-network, which took the state of the double pendulum as input and predicted the Q-values for each possible action. The network consisted of multiple layers of neurons, enabling it to learn complex relationships between the state and optimal actions.
+- Deep Q-Network Architecture: designed a neural network, known as the Q-network, which took the state of the double pendulum as input and predicted the Q-values for each possible action. The network consisted of multiple layers of neurons, enabling it to learn complex relationships between the state and optimal actions.
 
-- Replay Memory: I implemented a replay memory to store the agent's experiences. This memory allowed the agent to learn from past interactions by randomly sampling and reusing experiences during the training process, providing a more stable learning process.
+- Replay Memory: implemented a replay memory to store the agent's experiences. This memory allowed the agent to learn from past interactions by randomly sampling and reusing experiences during the training process, providing a more stable learning process.
 
-- Training Process: Using the DQN algorithm, I iteratively trained the agent by interacting with the environment, selecting actions based on exploration and exploitation, and updating the Q-network using the collected experiences. The training process aimed to minimize the discrepancy between predicted Q-values and target Q-values, enabling the agent to make better decisions over time.
+- Training Process: using the DQN algorithm, I iteratively trained the agent by interacting with the environment, selecting actions based on exploration and exploitation, and updating the Q-network using the collected experiences. The training process aimed to minimize the discrepancy between predicted Q-values and target Q-values, enabling the agent to make better decisions over time.
 
 - Evaluation and Fine-Tuning: After training the agent, I evaluated its performance by running simulations of the double pendulum. I fine-tuned the DQN algorithm by adjusting hyperparameters, network architecture, and exploration-exploitation strategies to improve the agent's control and stabilization capabilities.
 

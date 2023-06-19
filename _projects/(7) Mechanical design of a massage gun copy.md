@@ -10,7 +10,7 @@ description: Coursework that consisted in the complete design of a mechatronics 
 ![project_idea](/assets/imgs/massage_gun/2.png)
 
 # Overview
-This project consists on the design of a 2-degrees of freedom (DoF) massage gun designed for medical and rehabilitation purposes. Unlike traditionl massage guns, that perform actions only in one direction ours employs a reciprocating motion mechanism and incorporates a rotational head. The objective of this project is to design the system implement the rotational functionality and realize a prototype with improved overall performance.
+This project consists on the design of a 2-degrees of freedom (DoF) massage gun designed for medical and rehabilitation purposes. Unlike traditionl massage guns, that perform actions only in one direction ours employs a reciprocating motion mechanism and incorporates a rotational head. The objective of this project is to design the system, implementing the rotational functionality and realize a prototype with improved overall performance.
 
 # Description
 To achieve the final design the following phases has been followed:

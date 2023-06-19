@@ -51,8 +51,9 @@ With this project the following achievement have been reached:
 
 - Proof of Concept: The successful implementation of the modular drone and UWB communication serves as a proof of concept for future developments and innovations in the drone industry.
 
-The project received maximum grade.
 
 <div class="flex-parent jc-center">
 {% include elements/button.html link="/technical_details/Modular_ESC_Motors_Drone_REPORT.pdf" text="Technical report" %}
+{% include elements/button.html link="https://github.com/alessandroassirelli98/modular-drone" text="Project repo" %}
+
 </div>

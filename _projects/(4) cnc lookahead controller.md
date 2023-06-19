@@ -26,6 +26,7 @@ In order to develop the algorithm the following steps have been carried out:
 
 # Results:
 While being a very manufacturing oriented project, the main topic of this project was programming in `C`. The code is rather complex and the repo can be found here below.
+
 This algorithm has demonstrated to be much efficient with respect to the traditional ones.
 In the picture the black vertical lines represent each motion block. Traditional planning need to go back to zero velocity at the end of every block. It is clear that this solution that does not break it's much faster. 
 
