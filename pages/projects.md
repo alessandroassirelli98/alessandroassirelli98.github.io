@@ -8,6 +8,15 @@ remote_projects:
   - arduino-visitor-counter
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D6K1WDDD7F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D6K1WDDD7F');
+</script>
 
 # Hi,
 ### This is my project portfolio, here you can find most of the projects I have worked on in the past.
