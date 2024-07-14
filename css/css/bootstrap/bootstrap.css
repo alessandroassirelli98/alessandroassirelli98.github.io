@@ -394,7 +394,8 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto; }
+  height: auto; 
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -738,7 +739,8 @@ pre {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
-    max-width: 50%; }
+    max-width: 50%; 
+  }
   .col-sm-7 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 58.33333%;
@@ -1066,7 +1068,8 @@ pre {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 66.66667%;
     flex: 0 0 66.66667%;
-    max-width: 66.66667%; }
+    max-width: 66.66667%; 
+  }
   .col-lg-9 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 75%;
