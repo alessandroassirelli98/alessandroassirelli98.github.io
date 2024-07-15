@@ -16,3 +16,36 @@
 // @prepros-append vendor/imagesloaded.pkgd.min.js
 // @prepros-append vendor/ScrollMagic.min.js
 // @prepros-append vendor/scrollmagic.animation.gsap.min.js
+
+document.addEventListener("DOMContentLoaded", function() {
+    const texts = ["Mechatronics", "Robotics", "Artificial Intelligence"];
+    const typingTextElement = document.getElementById("typing-text");
+    let textIndex = 0;
+    let charIndex = 0;
+    const typingSpeed = 130; // Typing speed in milliseconds
+    const delayBetweenTexts = 2000; // Delay between texts in milliseconds
+
+    function typeWriter() {
+        if (charIndex < texts[textIndex].length) {
+            typingTextElement.textContent += texts[textIndex].charAt(charIndex);
+            charIndex++;
+            setTimeout(typeWriter, typingSpeed);
+        } else {
+            setTimeout(clearText, delayBetweenTexts);
+        }
+    }
+
+    function clearText() {
+        if (charIndex > 0) {
+            typingTextElement.textContent = typingTextElement.textContent.slice(0, -1);
+            charIndex--;
+            setTimeout(clearText, typingSpeed / 2); // Speed up the clearing process
+        } else {
+            textIndex = (textIndex + 1) % texts.length;
+            setTimeout(typeWriter, typingSpeed);
+        }
+    }
+
+    typeWriter();
+});
+
