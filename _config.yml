@@ -12,6 +12,7 @@ open_new_tab        : true                             # Opens external URLs in 
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-redirect-from
 
 
 ### Navbar Settings ###

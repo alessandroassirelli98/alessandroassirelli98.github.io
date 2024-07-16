@@ -1,5 +1,6 @@
 ---
 layout: default
+redirect_to: https://alessandroassirelli98-github-io.onrender.com/index.html
 permalink: /
 ---
 
